@@ -1,0 +1,2 @@
+Laat dit hoofdstuk leeg. 
+De venv die jullie aanmaken dienen in de map 'venv' te komen.

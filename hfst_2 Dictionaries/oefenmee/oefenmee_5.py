@@ -2,10 +2,12 @@
 films = ["godfather", "avatar", "oppenheimer"]
 scores = [9, 3, 7.5]
 
+
 filmscores = {}
 for index, film in enumerate(films):
-    sleutel = ...  # De sleutel is de huidige film.
-    waarde = ...   # De waarde is de overeenkomstige score.
+    sleutel= films[index]  # De sleutel is de huidige film.
+    waarde = scores[index]   # De waarde is de overeenkomstige score.
+    filmscores[sleutel] = waarde  # Voeg het sleutel/waarde paar toe aan de dictionary.
     # Gebruik sleutel/waarde om nieuw dict element te maken.
 
 print(filmscores)

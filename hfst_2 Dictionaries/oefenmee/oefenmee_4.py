@@ -4,3 +4,6 @@ fruitmand = { # Sleutel is fruit, element is aantal
     "banaan": 3,
     "kers": 50
 }
+sleutelnummer = input("Geef een sleutelnummer: ")
+if sleutelnummer in fruitmand:
+    print(f"aantal {sleutelnummer}(en) in fruitmand: {fruitmand[sleutelnummer]}")

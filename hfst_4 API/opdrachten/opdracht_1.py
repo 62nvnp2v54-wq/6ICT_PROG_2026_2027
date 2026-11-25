@@ -1,3 +1,14 @@
+import requests, json
+topic = input("topic: ")
+link = f"https://api.adviceslip.com/advice/search/{topic}"
+response = requests.get(link)
+response_json = response.json()
+
+with open(r"response.json", "w") as file:
+    json.dump(response_json, file)
+    print("Data gedumpt!")
+
+
 """ Voorbeelden (API geeft enkel Engelse zinnen terug):
 
 Advies 1:
